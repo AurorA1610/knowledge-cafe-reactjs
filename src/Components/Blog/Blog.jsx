@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'; // ES6
+import { CiBookmark } from 'react-icons/ci';
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmarks }) => {
   const {
     title,
     cover_img,
@@ -8,23 +9,41 @@ const Blog = ({ blog }) => {
     author_img,
     posted_date,
     reading_time_in_minutes,
+    hashtags,
   } = blog;
   return (
-    <div>
-      <img src={cover_img} alt={`Cover picture of the blog ${title}`} />
-      <div className="flex justify-between">
+    <div className="pb-9 pt-9 mb-2 bg-white">
+      <img
+        src={cover_img}
+        alt={`Cover picture of the blog ${title}`}
+        className="rounded-lg w-full"
+      />
+      <div className="flex justify-between my-5">
         <div className="flex">
           <img className="w-14 rounded-full" src={author_img} alt="" />
           <div className="ml-6">
-            <h3 className="text-2xl">{author}</h3>
+            <h3 className="text-2xl font-bold">{author}</h3>
             <p>{posted_date}</p>
           </div>
         </div>
-        <div>
-          <span>Reaading Time: {reading_time_in_minutes} min</span>
+        <div className="flex items-center">
+          <span className="me-2">{reading_time_in_minutes} min read</span>
+          <button className="text-2xl" onClick={handleAddToBookmarks}>
+            <CiBookmark />
+          </button>
         </div>
       </div>
-      <h2>{title}</h2>
+      <h2 className="text-5xl font-bold">{title}</h2>
+      <p className="my-5">
+        {hashtags.map((hash, idx) => (
+          <span key={idx} className="me-4">
+            <a href="">#{hash}</a>
+          </span>
+        ))}
+      </p>
+      <a href="" className="underline text-violet-700 font-semibold">
+        Mark as read
+      </a>
     </div>
   );
 };
