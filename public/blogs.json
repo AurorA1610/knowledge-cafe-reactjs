@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1a23b4c5",
+    "cover_img": "https://i.ibb.co/R0t9VDG/quantum.jpg",
+    "title": "Exploring the Quantum Realm",
+    "author_img": "https://i.ibb.co/qW4zcv8/1.jpg",
+    "posted_date": "2024-03-01",
+    "reading_time_in_minutes": 12,
+    "hashtags": ["QuantumPhysics", "ScienceExploration", "Futuristic"],
+    "author": "Eleanor Hawthorne"
+  },
+  {
+    "id": "2d34e5f6",
+    "cover_img": "https://i.ibb.co/QDbHLkG/ai.jpg",
+    "title": "Artificial Intelligence Unleashed",
+    "author_img": "https://i.ibb.co/kHXM8Cx/2.jpg",
+    "posted_date": "2024-02-15",
+    "reading_time_in_minutes": 8,
+    "hashtags": ["AIRevolution", "MachineLearning", "FutureTech"],
+    "author": "Maxwell Sterling"
+  },
+  {
+    "id": "3g45h6i7",
+    "cover_img": "https://i.ibb.co/n76t5t6/culinary.jpg",
+    "title": "Culinary Adventures: Global Flavors",
+    "author_img": "https://i.ibb.co/mzJVSNG/3.jpg",
+    "posted_date": "2024-01-28",
+    "reading_time_in_minutes": 10,
+    "hashtags": ["FoodieJourney", "GlobalCuisine", "CulinaryExploration"],
+    "author": "Seraphina Blackwood"
+  },
+  {
+    "id": "4j56k7l8",
+    "cover_img": "https://i.ibb.co/jRwyt3v/space.jpg",
+    "title": "Space Odyssey: Beyond Our Galaxy",
+    "author_img": "https://i.ibb.co/1TS2mLt/4.jpg",
+    "posted_date": "2024-02-05",
+    "reading_time_in_minutes": 15,
+    "hashtags": ["SpaceExploration", "Astronomy", "GalacticWonders"],
+    "author": "Donovan Evergreen"
+  },
+  {
+    "id": "5m67n8o9",
+    "cover_img": "https://i.ibb.co/DtK0CxW/vr.jpg",
+    "title": "Digital Artistry: Virtual Realms",
+    "author_img": "https://i.ibb.co/VtqNjT8/5.jpg",
+    "posted_date": "2024-03-10",
+    "reading_time_in_minutes": 7,
+    "hashtags": ["DigitalArt", "VirtualReality", "CreativeExpression"],
+    "author": "Isabella Hartfield"
+  },
+  {
+    "id": "6p78q9r0",
+    "cover_img": "https://i.ibb.co/NtnX0p6/programming-1.jpg",
+    "title": "How to get your first job as a self-taught programmer",
+    "author_img": "https://i.ibb.co/txPvGzT/6.png",
+    "posted_date": "2024-03-14",
+    "reading_time_in_minutes": 12,
+    "hashtags": ["Beginners", "Programming"],
+    "author": "Mr. Raju"
+  },
+  {
+    "id": "7s89t0u1",
+    "cover_img": "https://i.ibb.co/Fs9b4mY/programming-2.jpg",
+    "title": "JavaScript Promises Demystified",
+    "author_img": "https://i.ibb.co/vcTKWLY/7.png",
+    "posted_date": "2024-03-20",
+    "reading_time_in_minutes": 8,
+    "hashtags": ["JavaScript", "AsyncProgramming", "WebDevelopment"],
+    "author": "Mr. Shetar"
+  },
+  {
+    "id": "8v90w1x2",
+    "cover_img": "https://i.ibb.co/bbXykxh/programming-3.jpg",
+    "title": "Introduction to Data Structures with C++",
+    "author_img": "https://i.ibb.co/TRgBX0L/8.png",
+    "posted_date": "2024-03-25",
+    "reading_time_in_minutes": 15,
+    "hashtags": ["CPlusPlus", "DataStructures", "ProgrammingFundamentals"],
+    "author": "Mina Mostofa"
+  }
+]
